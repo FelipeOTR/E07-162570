@@ -1,0 +1,13 @@
+#include "potencia.h"
+
+int potencia(int base, int exp)
+{
+    int resultado = 1;
+
+    for(int i = 0; i < exp; i++)
+    {
+        resultado = resultado * base;
+    }
+
+    return resultado;
+}
