@@ -1,7 +1,6 @@
 # E07: Compilação Separada em C
-Felipe Ortiz, 162570
 
-- A partir do Makefile, a compilação é guiada, seguindo regras e parâmetros especificados, como listagem de arquivos e criações de arquivos -o e flags. Cada função possui seu protótipo .h e implmentação .c.
+- A partir do Makefile, a compilação é guiada, seguindo regras e parâmetros especificados, como listagem de arquivos e criações de arquivos -o e flags. Cada função possui seu protótipo .h e implementação .c.
 - As funções implementadas foram: multiplica, divide, potencia e maximo. Variável SRCS contém as novas funções.
 
 ## Pré-requisitos
