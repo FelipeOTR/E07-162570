@@ -1,7 +1,8 @@
 # E07: Compilação Separada em C
-- Felipe Ortiz, 162570
+Felipe Ortiz, 162570
 
-Pequena demonstração de como separar **protótipos** (`.h`) e **implementações** (`.c`) usando `make` para automatizar a compilação.
+- A partir do Makefile, a compilação é guiada, seguindo regras e parâmetros especificados, como listagem de arquivos e criações de arquivos -o e flags. Cada função possui seu protótipo .h e implmentação .c.
+- As funções implementadas foram: multiplica, divide, potencia e maximo. Variável SRCS contém as novas funções.
 
 ## Pré-requisitos
 - Compilador C compatível com C11 (ex.: `gcc` ou `clang`)
@@ -26,7 +27,6 @@ Pequena demonstração de como separar **protótipos** (`.h`) e **implementaçõ
 ```bash
 make
 ```
-Isso compila cada `.c` em um `.o` e depois gera o executável `main`.
 
 ## Como Executar
 ```bash
@@ -46,4 +46,3 @@ dentre s e 10, o maximo eh: 27
 ```bash
 make clean
 ```
-Remove o executável e todos os objetos.
